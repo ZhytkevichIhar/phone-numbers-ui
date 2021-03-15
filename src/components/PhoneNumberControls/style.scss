@@ -1,0 +1,11 @@
+.number-text-input,
+.number-text-input:hover,
+.number-text-input:focus {
+  color: black;
+}
+
+.btn-add:disabled,
+.btn-add.disabled {
+  background-color: #666666 !important;
+  border-color: #666666 !important;
+}

@@ -1,0 +1,12 @@
+.numbers-list {
+  max-height: calc(100vh - 160px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  .phone-number-list-item {
+    border-radius: 5px;
+  }
+  .phone-number-list-item-dup {
+    background-color: #ce1126 !important;
+  }
+}
